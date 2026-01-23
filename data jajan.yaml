@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['BigRolls', 'BrowniesCruunchy', 'Gery', 'Lexus', 'Milkita', 'Momotaro', 'Pocky', 'RomaSandwich', 'SlaiOlai', 'Soyjoy', 'garuda']
+
+roboflow:
+  workspace: tarpaulin
+  project: jajan-ruvzt
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tarpaulin/jajan-ruvzt/dataset/2
